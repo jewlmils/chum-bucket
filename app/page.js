@@ -1,9 +1,11 @@
+import ImageSlideshow from "@/components/images/images-slides";
+
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-white h-screen flex justify-center items-center">
-        Time to get started!
-      </h1>
+    <main className="flex flex-col items-center justify-center h-screen w-screen">
+      <div className="slideshow-container">
+        <ImageSlideshow />
+      </div>
     </main>
   );
 }
